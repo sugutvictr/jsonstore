@@ -1,4 +1,4 @@
-$(document).ready (function () {
+function calldata() {
 
 $.getJSON("fetch.php", function(data) {
 
@@ -7,4 +7,4 @@ $.getJSON("fetch.php", function(data) {
 		$("ul").append("<li> Fkey: " + this['fkey']+"</li><li> Email: " + this['email']+"</li><li> Pw: " + this['pw'] +"</li> <br />");
 	});
 });
-	} );
+	};
