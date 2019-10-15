@@ -10,3 +10,10 @@ mysql_select_db($database_conn, $conn);
       	'pw' => $row[2]));
       echo json_encode(array('result' =>$result));
       ?>
+      <?php
+/*$currdir= getcwd();
+if (mkdir($currdir . "/filex", 0777)){
+	echo 'directory created';
+} else {echo 'not created';}
+*/
+      ?>
